@@ -10,9 +10,8 @@ contract VevueToken is StandardToken, Ownable {
   uint256 public constant nativeDecimals = 8;
   uint256 public constant decimals = 8;
 
-  /// Running on Qtum TestNet now
-  uint256 public constant _fundingStartBlock = 16420;
-  uint256 public constant _fundingEndBlock = 17000;
+  uint256 public constant _fundingStartBlock = 35000;
+  uint256 public constant _fundingEndBlock = 60000;
   uint256 public constant _initialExchangeRate = 100;
 
   /// the founder address can set this to true to halt the crowdsale due to emergency
