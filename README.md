@@ -17,7 +17,7 @@ Vevue采用区块链技术完整记录所有原创内容的版权以及版权流
 
 **<font color=green>合约地址</font>：<br>9d3d4cc1986d81f9109f2b091b7732e7d9bcf63b**
 
-**<font color=green>接口ABI</font>：<br>https://github.com/vevue/interface-abi.txt**
+**<font color=green>接口ABI</font>：<br>https://github.com/vevue/ICOcontracts/blob/master/interface-abi.txt**
 
 Vevue于2017年10月基于Qtum量子链网络发布用于众筹的合约。
 总发行代币1亿枚，其中6000万代币用于众筹。
