@@ -24,20 +24,20 @@ Vevue于2017年10月基于Qtum量子链网络发布用于众筹的合约。
 由于我们在预发行阶段完成了2000万代币的发放，本次众筹总额<font color=green> 4000万 </font>代币。
 >Vevue代币分发方案 https://www.vevue.com/coins-distribution/
 
-#####兑换比例：
+##### 兑换比例：
 1 Qtum = 100 Vevue Token
 
-#####众筹时间：
+##### 众筹时间：
 起始于：区块高度 **35000**
 结束于：区块高度 **90000**
 >约2.2分钟产生1个区块
 
 # 代币购买说明
-###1. 准备Qtum钱包
+### 1. 准备Qtum钱包
 >本下载仅针对Windows及OSX用户
 >Linux及其他官方发行版详见 https://github.com/qtumproject/qtum/releases
 
-#####Windows
+##### Windows
 <li><a href="https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v1.0.2/qtum-0.14.3-win64.zip">qtum-0.14.3-win64.zip</a>
 
 <li><a href="https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v1.0.2/qtum-0.14.3-win32.zip">qtum-0.14.3-win32.zip</a>
@@ -45,13 +45,13 @@ Vevue于2017年10月基于Qtum量子链网络发布用于众筹的合约。
 >解压后进入bin目录，其中qtum-qt即为钱包。
 ![](media/12.jpg)
 
-#####OSX
+##### OSX
 <li><a href="https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v1.0.2/qtum-0.14.3-osx-unsigned.dmg">qtum-0.14.3-osx-unsigned.dmg</a>
 
-###2. 启动钱包并等待区块数据同步完成
+### 2. 启动钱包并等待区块数据同步完成
 ![](media/13.jpg)
 
-###3. ICO合约地址验证
+### 3. ICO合约地址验证
 在左侧边栏依次选择：Smart Contract -> Call
 合约地址填写：
 
@@ -75,7 +75,7 @@ Interface(ABI)填写：
 ![](media/2.jpg)
 
 
-###4. 获取你的钱包地址
+### 4. 获取你的钱包地址
 
 在左侧边栏选择Receive，之后点击页面中的**请求付款**，即可得到你的钱包地址，复制它。
 >地址格式样例：QWYMhtPhwDbV3L8cjrBvLHkjkf9mNnEfcU
@@ -104,7 +104,7 @@ gethexaddress 刚刚得到的钱包地址
 
 ![](media/6.jpg)
 
-###5. 购买代币
+### 5. 购买代币
 
 1. 在左侧边栏依次选择：Smart Contract -> SendTo。
 2. 填写和步骤3中一样的**合约地址**和**Interface(ABI)**。
@@ -122,7 +122,7 @@ gethexaddress 刚刚得到的钱包地址
 
 ![](media/8.jpg)
 
-###6. 查看代币购买情况
+### 6. 查看代币购买情况
 
 点击左侧边栏**Transactions**即可看到刚刚的提交请求的状态为**等待确认**的问号。
 
@@ -134,15 +134,19 @@ gethexaddress 刚刚得到的钱包地址
 
 因为本文编辑时当前区块高度尚未达到交易启动高度（35000）故提交的代币被合约退回。
 
-#####查看充值情况
+##### 查看充值情况
 1. 点击左侧边栏的**Smart Contract**，选择**Call**，合约地址和Interface(ABI)和步骤3中填写一致。
 2. Function选择<font color=green>balanceOf(70a08231)</font>
 3. address_ ···中填写步骤4中得到的**16进制钱包地址**
 <br>（***如：6d019f28780a3eeca51a150c6b461aa1c01b4ae5***）
 
-#####在Result返回结果中即可看到你的余额。
+##### 在Result返回结果中即可看到你的余额。
 
 ![](media/11.jpg)
+
+
+
+
 
 
 
