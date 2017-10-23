@@ -11,7 +11,7 @@ contract VevueToken is StandardToken, Ownable {
   uint256 public constant decimals = 8;
 
   uint256 public constant _fundingStartBlock = 35000;
-  uint256 public constant _fundingEndBlock = 60000;
+  uint256 public constant _fundingEndBlock = 90000;
   uint256 public constant _initialExchangeRate = 100;
 
   /// the founder address can set this to true to halt the crowdsale due to emergency
