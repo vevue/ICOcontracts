@@ -5,7 +5,7 @@
 **<font color=green>Interface ABI</font>：<br>https://github.com/vevue/ICOcontracts/blob/master/interface-abi.txt**
 
 Vevue create smart contract through Qtum main network on October 2017.
-We released 100 millions totally and 60 millions of all for ICO.
+We released 100 millions totally and 40 millions of all for ICO.
 
 >VEVUE TOKEN DISTRIBUTION https://www.vevue.com/coins-distribution/
 
